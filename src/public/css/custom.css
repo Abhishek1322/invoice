@@ -1,0 +1,415 @@
+.menu-img {
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 25px;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-barDIv {
+  display: flex;
+  align-items: center;
+}
+
+.button-invoice {
+  display: flex;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d6d6d6;
+  padding: 8px 22px;
+}
+
+.menu-barDIv {
+  display: flex;
+  align-items: center;
+}
+
+.button-invoice {
+  display: flex;
+  align-items: center;
+}
+
+h1.tool-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.title p {
+  font-size: 11px;
+  line-height: 13px;
+  color: #333;
+  display: block;
+  margin: 0;
+}
+.button-invoice p {
+  color: #408dfb;
+  line-height: 27px;
+  margin: 0;
+  text-decoration: none;
+}
+button.sign-up {
+  color: #fff;
+  background: #f0483e;
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  margin-left: 15px;
+}
+.title {
+  margin-left: 60px;
+}
+.container-invoice {
+  width: 60%;
+  margin: 0 auto;
+}
+.invoice-download {
+  padding: 47px 10px;
+  display: flex;
+}
+.mainBox {
+  background-color: #fafafa;
+}
+.invoice-main {
+  /* min-height: 1100px; */
+  padding: 40px 33px 40px 35px;
+  background: #fff;
+  border: 1px solid #bfc8de;
+  border-radius: 10px;
+}
+.add-logo {
+  padding: 20px 20px 15px;
+  border: 1px dashed #dbe8fd;
+  display: block;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  width: 20%;
+  color: #5b9aff;
+  cursor: pointer;
+  text-align: center;
+  background-color: #fbfcff;
+}
+.upload-section-note {
+  display: block;
+  margin: 15px 20px;
+  font-size: 14px;
+  width: 24%;
+  font-weight: 500;
+}
+.upload-section-note div {
+  color: #676767;
+  font-size: 10px;
+  padding-top: 5px;
+}
+.inv-header-container,
+.upload-logo-section {
+  width: 50%;
+}
+.upload-logo-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none !important;
+}
+.alltextInput {
+  border: none;
+  text-align: right !important;
+}
+.invoiceInput {
+  font-size: 45px;
+  font-weight: 400 !important;
+  width: 100%;
+  color: #38342c;
+}
+.comp-addr-outer.clearfix {
+  width: 50%;
+}
+.common-input {
+  border: none;
+}
+.bill-addr {
+  margin-top: 50px;
+  width: 100%;
+}
+.pull-left {
+  float: left !important;
+}
+.adr-lft {
+  width: 55%;
+  text-align: left;
+}
+.pull-left {
+  float: left !important;
+}
+.bill-to {
+  color: #000;
+  margin-bottom: 10px;
+}
+ul.pull-left.bill-addr {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.adr {
+  width: 98%;
+}
+.bill td {
+  padding: 2px;
+}
+.lineItemDIV {
+  clear: both;
+  margin-top: 30px;
+  float: left;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  gap: 5px;
+}
+
+.des-input {
+  width: 40%;
+  background: #000;
+  color: #ffff;
+}
+
+.qty-input {
+  width: 15%;
+  background: #000;
+  color: #ffff;
+}
+.des-input {
+  width: 40%;
+  background: #000;
+  color: #ffff;
+}
+
+.qty-input {
+  width: 15%;
+  background: #000;
+  color: #ffff;
+}
+
+.listItems {
+  float: left;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.des-name {
+  width: 40%;
+}
+
+.qty-value,
+.rate-value,
+.tax-value,
+.qtyPrice {
+  width: 15%;
+}
+.qtyPrice {
+  margin: 0;
+}
+p {
+  margin: 0 !important;
+}
+.totalPrice {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+
+.addLineDiv {
+  width: 50%;
+}
+
+.subTotal {
+  display: flex;
+  align-items: center;
+}
+
+.taxTotal {
+  display: flex;
+  align-items: center;
+}
+
+.subTotal input {
+  width: 50%;
+}
+
+p.subtotalPrice {
+  width: 50%;
+  text-align: end;
+}
+.taxTotal p {
+  padding: 0.375rem 0.75rem;
+  width: 50%;
+}
+
+.finalTotal {
+  display: flex;
+  align-items: center;
+}
+.subtotalTaxPrice {
+  width: 50%;
+  text-align: end;
+  padding: 0 !important;
+}
+.addLineDiv button {
+  color: #408dfb;
+  background: no-repeat;
+  border: none;
+}
+.downoad-main {
+  padding: 20px;
+}
+i.fa.fa-times.crossIcon {
+  margin-right: -23px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+/* login page start  */
+.logintext {
+  color: #2e3333;
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.login-page.authBg.adminlgn,
+.login-page.authBg.adminpwd,
+.login-page.authBg.adminotp,
+.login-page.authBg.resetpwd {
+  background-color: #fff;
+}
+
+.forgotheading {
+  color: #089949 !important;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.adminlgn .card-primary.card-outline {
+  padding: 30px 15px;
+  border: 1px solid #e9e9e9 !important;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 25px;
+  width: 100%;
+  max-width: 550px;
+}
+
+.adminlgn .card-header {
+  border: none;
+}
+
+.input-container {
+  position: relative;
+}
+
+.inputBox {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  background-color: #fff;
+  padding: 0 5px;
+  pointer-events: none;
+  transition: 0.2s ease-out;
+  color: #979999;
+  font-family: Open Sans;
+  font-size: 16px;
+  margin: -12px auto;
+  font-weight: 600 !important;
+}
+
+.borderinput {
+  width: 100%;
+  padding: 25px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #e9e9e9 !important;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.04);
+  color: #2e3333;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.borderinput::placeholder {
+  color: #2e3333;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.borderinput:focus {
+  border: 1px solid rgba(230, 92, 0, 0.2);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.04);
+}
+
+.loginbtn {
+  border-radius: 8px;
+  background: #089949;
+  box-shadow: 0px 17px 28px 0px rgba(230, 92, 0, 0.15);
+  padding: 18px 45px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.spinner-border.loader {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: 5px;
+}
+
+.invoiceListMain table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.invoiceListMain td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.invoiceListMain tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.common-input:hover {
+  border: 1px solid #5b9aff;
+  outline: none;
+}
